@@ -2,7 +2,9 @@
 # Demo
 
 1. Click the link: http://cats.mayank.uk/
-2. Select 3 cat images (you can select a cat again to unselect it) to check if they are compatible or they would fight
+2. Select 3 cat images (you can select a cat again to unselect it)
+3. Wait for the message to appear
+
 # Screenshot
 ![Screenshot](http://cats.mayank.uk/cats.png? "Screenshot")
 
