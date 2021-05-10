@@ -28,6 +28,7 @@ function App() {
     try {
       await axios(clouderUrl(catIds));
       setSuccessMessage(SUCCESS_MESSAGE);
+      setGroupedCats([...groupedCats, ...catIds]);
       setGroupedCats(catIds);
       setTimeout(() => setSuccessMessage(null), MESSAGE_HIDE_TIME_MS);
     } catch (error) {
@@ -42,10 +43,11 @@ function App() {
   const selectCat = async catId => {
     if (!groupedCats.includes(catId)) {
       const selectedCatsValue = updateSelectedCatsValue(selectedCats, catId);
-      if (selectedCatsValue.length === CATS_GROUP_SIZE) {
+      const selectedCatsCountValue = selectedCatsValue.length;
+      setSelectedCatsCount(selectedCatsCountValue);
+      if (selectedCatsCountValue === CATS_GROUP_SIZE) {
         await checkCatsCompatibility(selectedCatsValue);
       } else {
-        setSelectedCatsCount(selectedCatsValue.length);
         setSelectedCats(selectedCatsValue);
       }
     }
