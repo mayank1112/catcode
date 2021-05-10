@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CatImage> component should match snapshot 1`] = `
+<img
+  alt="Cat"
+  src="http://quantcats.herokuapp.com/static/cats/undefined.png"
+/>
+`;

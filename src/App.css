@@ -1,0 +1,15 @@
+body {
+  margin: 12px;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 4px;
+}
+

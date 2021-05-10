@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App> component should match snapshot 1`] = `
+<Fragment>
+  <Header />
+  <CatsApp
+    cats={Array []}
+    groupedCats={Array []}
+    selectCat={[Function]}
+    selectedCats={Array []}
+    selectedCatsCount={0}
+  />
+</Fragment>
+`;
+
+exports[`<Header> component should match snapshot 1`] = `
+<Fragment>
+  <Header />
+  <CatsApp
+    cats={Array []}
+    groupedCats={Array []}
+    selectCat={[Function]}
+    selectedCats={Array []}
+    selectedCatsCount={0}
+  />
+</Fragment>
+`;

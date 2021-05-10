@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 210px;
+    box-sizing: border-box;
+}
+.gridItem {
+    border: 1px solid #66b0ff;
+    text-align: center;
+    height: 70px;
+}
+
+.gridItem img {
+    max-height: 70px;
+    animation: grow 1s;
+}
+  
+@keyframes grow {
+  from {
+    transform: scale(.5);
+    opacity: .4;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
