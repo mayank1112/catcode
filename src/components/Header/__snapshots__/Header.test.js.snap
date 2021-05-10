@@ -1,9 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Header> component should match snapshot 1`] = `
+exports[`<Header> component with no user messages should match snapshot 1`] = `
 <Fragment>
   <h1>
     Catrancher
   </h1>
+</Fragment>
+`;
+
+exports[`<Header> component with user messages should match snapshot 1`] = `
+<Fragment>
+  <h1>
+    Catrancher
+  </h1>
+  <WithStyles(ForwardRef(Alert))
+    severity="success"
+  >
+    mockSuccess
+  </WithStyles(ForwardRef(Alert))>
+  <WithStyles(ForwardRef(Alert))
+    severity="error"
+  >
+    mockError
+  </WithStyles(ForwardRef(Alert))>
 </Fragment>
 `;
