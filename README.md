@@ -4,6 +4,7 @@
 1. Click the link: http://cats.mayank.uk/
 2. Select 3 cat images to check if they are compatible or they would fight
 3. You can select a cat again to unselect it.
+![Screenshot](http://cats.mayank.uk/cats.png? "Screenshot")
 
 # Steps for code installation on local machine.
 
