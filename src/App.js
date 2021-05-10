@@ -29,7 +29,6 @@ function App() {
       await axios(clouderUrl(catIds));
       setSuccessMessage(SUCCESS_MESSAGE);
       setGroupedCats([...groupedCats, ...catIds]);
-      setGroupedCats(catIds);
       setTimeout(() => setSuccessMessage(null), MESSAGE_HIDE_TIME_MS);
     } catch (error) {
       setErrorMessage(ERROR_MESSAGE);
