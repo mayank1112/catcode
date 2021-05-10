@@ -11,3 +11,7 @@
 2. Execute npm install command
 3. Execute npm start command
 4. Navigate to http://localhost:3000/
+
+# Unit testing
+
+1. Execute npm test command to run automated tests
