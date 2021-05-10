@@ -12,16 +12,4 @@
 
 .gridItem img {
     max-height: 70px;
-    animation: grow 1s;
-}
-  
-@keyframes grow {
-  from {
-    transform: scale(.5);
-    opacity: .4;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
 }
