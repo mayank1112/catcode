@@ -4,7 +4,7 @@ import './App.css';
 import { bagUrl, clouderUrl } from './utils/paths';
 import { ERROR_MESSAGE, SUCCESS_MESSAGE } from './constants/lang';
 import Header from './components/Header/Header.jsx';
-import { CATS_GROUP_SIZE, HIDE_TIME } from './constants/apiConstants';
+import { CATS_GROUP_SIZE, MESSAGE_HIDE_TIME_MS } from './constants/apiConstants';
 import { updateSelectedCatsValue } from './utils/generalUtils';
 import CatsApp from './components/CatsApp/CatsApp';
 
